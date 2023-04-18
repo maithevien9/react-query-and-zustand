@@ -3335,7 +3335,7 @@ packages:
     resolution: { integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA== }
     dependencies:
       fs.realpath: 1.0.0
-      intest-app: 1.0.6
+      inflight: 1.0.6
       inherits: 2.0.4
       minimatch: 3.1.2
       once: 1.4.0
@@ -3346,7 +3346,7 @@ packages:
     resolution: { integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q== }
     dependencies:
       fs.realpath: 1.0.0
-      intest-app: 1.0.6
+      inflight: 1.0.6
       inherits: 2.0.4
       minimatch: 3.1.2
       once: 1.4.0
@@ -3590,7 +3590,7 @@ packages:
     engines: { node: '>=8' }
     dev: true
 
-  /intest-app/1.0.6:
+  /inflight/1.0.6:
     resolution: { integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA== }
     dependencies:
       once: 1.4.0
