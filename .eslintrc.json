@@ -1,0 +1,61 @@
+{
+  "extends": [
+    "@enouvo/eslint-config-react"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": [
+        "plugin:testing-library/react"
+      ],
+      "rules": {}
+    }
+  ],
+  "rules": {
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "function",
+        "format": [
+          "camelCase",
+          "PascalCase"
+        ]
+      },
+      {
+        "selector": [
+          "enum",
+          "enumMember",
+          "class",
+          "interface",
+          "typeAlias"
+        ],
+        "format": [
+          "PascalCase"
+        ]
+      }
+    ],
+    "@typescript-eslint/no-var-requires": 0,
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": false,
+        "object": true
+      }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": [
+              "lodash"
+            ],
+            "message": "Please use import from 'lodash-es' instead."
+          }
+        ]
+      }
+    ]
+  }
+}
