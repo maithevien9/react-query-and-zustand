@@ -10,7 +10,6 @@ export default function IndexPage() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Home Page</h1>
       {data?.map(repository => (
         <Card isFavorite={favoriteReposIds.includes(repository.id)} key={repository.id} repository={repository} />
       ))}
