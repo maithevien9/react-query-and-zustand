@@ -60,6 +60,6 @@ module.exports = {
   },
   plugins: [],
   corePlugins: {
-    preflight: false
+    pretest-app: false
   }
 }

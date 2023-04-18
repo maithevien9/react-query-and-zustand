@@ -1,6 +1,6 @@
 {
-  "short_name": "Flight - Logic",
-  "name": "Flight - Logic",
+  "short_name": "test-app - Logic",
+  "name": "test-app - Logic",
   "icons": [],
   "start_url": ".",
   "display": "standalone",
