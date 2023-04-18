@@ -47,12 +47,6 @@
       "last 1 safari version"
     ]
   },
-  "pre-commit": [
-    "check-types",
-    "lint-staged",
-    "lint-pass",
-    "test-bail"
-  ],
   "devDependencies": {
     "@enouvo/eslint-config-react": "^2.0.0",
     "@faker-js/faker": "^7.6.0",
@@ -77,7 +71,6 @@
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.3",
     "jsdom": "^21.1.1",
-    "pre-commit": "^1.2.2",
     "lint-staged": "^13.2.1",
     "plop": "^3.1.2",
     "postcss": "^8.4.21",
